@@ -101,6 +101,10 @@ footer {
 }
 
 @media screen and (min-width: 550px) {
+  html {
+    font-size: 1.2em;
+  }
+
   .product-wrapper {
     overflow: hidden;
   }
@@ -159,7 +163,4 @@ footer {
     margin-right: 10px;
     line-height: 60px;
   }
-}
-
-@media screen and (min-width: 720px) {
 }

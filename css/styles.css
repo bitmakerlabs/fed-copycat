@@ -88,12 +88,14 @@ footer {
 
 .team {
   overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 
 .team-fun,
 .team-values,
 .team-meow {
-  float: left;
   width: 33.33333%;
   text-transform: uppercase;
   text-align: center;
@@ -105,13 +107,27 @@ footer {
     font-size: 1.2em;
   }
 
+  header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .logo {
+      justify-self: flex-start;
+  }
+
+  nav {
+      justify-self: flex-end;
+  }
+
   .product-wrapper {
     overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .product-item {
-    float: left;
-    width: 33%;
+    width: 100%;
     padding: 10px;
   }
 
@@ -123,16 +139,15 @@ footer {
     overflow: hidden;
     background-color: #26547C;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .hero-image {
-    float: left;
-    width: 60%;
+    width: 100%;
   }
 
   .hero-content {
-    float: left;
-    width: 40%;
     font-size: 25px;
   }
 
@@ -147,14 +162,12 @@ footer {
   }
 
   .logo {
-    float: left;
     line-height: 60px;
     font-size: 18px;
 
   }
 
   .navbar {
-    float: right;
     padding: 0;
   }
 

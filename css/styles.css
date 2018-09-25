@@ -6,3 +6,116 @@
   background-color: #FFD166;
   background-color: #FFFCF9;
 */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em;
+  background-color: #FFFCF9;
+  color: #222222;
+}
+
+/**************** HEADER ***************/
+
+.topheader, .bottomfooter {
+  background-color: #06D6A0;
+}
+
+.topheader {
+  text-align: center;
+  padding: 1em;
+}
+
+  .logo {
+    font-size: 2em;
+    color: #FFFCF9;
+    font-weight: 700;
+  }
+
+  .nav-item {
+    /* margin: 1em 0; */
+    line-height: 2;
+  }
+  .nav-item a {
+    color: #26547C;
+  }
+
+/**************** MAIN ***************/
+
+.container section {
+  overflow: hidden;
+  padding: 0 1em;    /* 16px */
+}
+
+.container h3 {
+  font-size: 1.25em;  /* 20px */
+  font-weight: bold;
+  margin: 0.8em 0;    /* 16px */
+}
+
+.container p {
+  margin: 1em 0;    /* 16px */
+  text-align: justify;
+}
+
+.hero-image {
+  margin: 0 -1em;
+  /* Counter the padding added to the parent */
+}
+
+.hero-content {
+  text-align: center;
+}
+
+  .hero-content h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    border-bottom: 5px solid #EF476F;
+    padding: 0.25em 0;
+    margin: 0.5em 0;
+    display: inline-block;
+  }
+
+.cats {
+  background-color: #FFD166;
+
+}
+
+.products {
+  background-color: tomato;
+}
+
+  .product-item {
+    margin: 1em 0;
+  }
+
+  .product-item img {
+    vertical-align: bottom;
+    border: 3px solid #222;
+  }
+
+.about {
+  background-color: #26547C;
+  color: #fff;
+}
+  .about h3 {
+    color: #EF476F;
+  }
+  .team {
+    text-align: center;
+  }
+    .team div {
+      display: inline-block;
+      padding: 0 1.5em;
+    }
+    .team div:hover {
+      background-color: #06D6A0;
+    }
+
+/**************** FOOTER ***************/
+
+.bottomfooter {
+  text-align: right;
+  padding: 1em;
+  font-weight: bold;
+}
